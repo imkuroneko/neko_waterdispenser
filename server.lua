@@ -1,6 +1,6 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 
-RegisterNetEvent('neko_waterdispenser:server:thirst', function()
+RegisterNetEvent('neko_waterdispenser:server:drinked_water', function()
     local Player = QBCore.Functions.GetPlayer(source)
     local newThirst = (Player.PlayerData.metadata.thirst + Config.amountThirst)
     Player.Functions.SetMetaData('thirst', newThirst)

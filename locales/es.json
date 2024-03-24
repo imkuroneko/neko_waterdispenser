@@ -1,0 +1,7 @@
+{
+    "qbtarget_label" : "Dispensador de agua",
+    "action" : "Bebiendo agua...",
+    "not_available" : "Este dispensador de agua está ocupado o no se encuentra disponible",
+    "drinked_water_ok" : "Te has hidratado un poco...",
+    "drinked_water_cancelled" : "Has dejado de beber el agua"
+}

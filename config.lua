@@ -1,22 +1,13 @@
 Config = {}
 
--- Visualización del qb-target a los dispensadores
-Config.label        = 'Dispensador de agua'
-Config.icon         = 'fas fa-droplet'
+Config.qbTargetIcon     = 'fas fa-droplet' -- icon for the option
+Config.qbTargetDistance = 1.4              -- distance
 
--- Label para progressbar
-Config.labelAction  = 'Bebiendo agua...'
+Config.VerifyNearby = false                -- if true, will check you are veery nearby of the water dispenser
+Config.amountThirst = math.random(10, 15)  -- how much a cup of water will fill
+Config.TimeInMS     = 5500                 -- time for exec the action (5.5s)
 
--- Cuanto debe llenar
-Config.amountThirst = math.random(10, 15)
-
--- Cuanto debe tardar para beber agua
-Config.TimeInMS     = 5500 -- 5.5s
-
--- Props dispensadores
-Config.props = {
+Config.props = {                           -- on which props will work this
     'prop_watercooler',
     'prop_watercooler_dark'
 }
-
-Config.OutOfService = 'Este dispensador de agua se encuentra fuera de servicio'
