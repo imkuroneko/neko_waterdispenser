@@ -12,6 +12,7 @@ Pequeño script utilitario para interactuar con dispensadores de agua para servi
 
 ### 📦 Dependencias
 - `ox_lib`
+- `qb-target`
 
 <br>
 
